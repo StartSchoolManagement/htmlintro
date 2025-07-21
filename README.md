@@ -1,18 +1,18 @@
-# 🧪 Intro to HTML – Personal Webpage Assignment
+# Intro to HTML Assignment
 
-## 🚀 Your Task
-Edit `index.html` to create a personal webpage that includes:
+## ✍️ Your Task
+Edit `index.html` and make sure it includes:
+- A heading (`<h1>`)
+- A link (`<a>`)
+- An image (`<img>`)
 
-- A main heading with your name
-- A short bio paragraph
-- A list of your hobbies
-- An image (use an online image or placeholder)
-- A link to your favorite website
-- (Bonus) A table with your weekly schedule or favorite things
+## ✅ Autograding
+Your code will be tested for:
+- Valid HTML syntax (via HTMLHint)
+- Presence of required tags
 
-## 🧰 How to Submit
-Push your completed changes to your GitHub repository. Your instructor will review your code.
-
-## 💡 Tips
-- Use the W3C HTML validator: https://validator.w3.org/
-- Format your code with consistent indentation
+To run the tests locally:
+```bash
+npm install
+npm run test:htmlhint
+npm run test:tags
