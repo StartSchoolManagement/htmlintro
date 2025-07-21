@@ -1,0 +1,12 @@
+{
+  "name": "html-autograding",
+  "version": "1.0.0",
+  "scripts": {
+    "test:htmlhint": "npx htmlhint index.html",
+    "test:tags": "node test/check-tags.js"
+  },
+  "devDependencies": {
+    "htmlhint": "^1.1.4"
+  },
+  "type": "module"
+}
